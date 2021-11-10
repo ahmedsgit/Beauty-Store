@@ -3,16 +3,20 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "build-css": "postcss public/styles/global.css -o build/output.css",
+    "build-css-watch": "postcss public/styles/global.css -o build/output.css --watch"
   },
   "dependencies": {
+    "@heroicons/react": "^1.0.5",
     "next": "latest",
+    "postcss-cli": "^9.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.2.6",
-    "postcss": "^8.3.5",
+    "postcss": "^8.3.11",
     "tailwindcss": "^2.2.4"
   }
 }
