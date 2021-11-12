@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.subMenu{
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.menuTrigger.isOpen + .subMenu{
+    max-height:100%;
+    overflow: visible;
+}
