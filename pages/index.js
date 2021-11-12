@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Form from '../components/Form';
 import Layout from '../components/Layout';
 import Navigation from '../components/Navigation';
 import Slider from '../components/Slider';
@@ -15,6 +16,7 @@ export default function Home() {
         <Navigation/>
         <Slider/>
         <Layout/>
+        <Form/>
       </main>
 
     </div>
