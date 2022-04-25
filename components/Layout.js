@@ -3,9 +3,9 @@ import Products from './Products';
 
 export default function Layout() {
     return (
-        <section className="container mx-auto py-12 flex">
-            <Sidebar/>
-            <Products/>
-        </section>
-    )
+      <section className='container mx-auto py-12 flex mobile:flex-row flex-col'>
+        <Sidebar />
+        <Products />
+      </section>
+    );
 }
