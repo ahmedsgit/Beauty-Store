@@ -4,7 +4,7 @@ import cosmaticsTools from '../public/images/cosmetics-tools.png';
 export default function Form() {
     return (
       <section className='flex laptop:flex-row flex-col w-11/12 laptop:ml-auto ml-2 mt-44'>
-        <div className='bg-orange-200 laptop:w-2/5 w-full laptop:p-24 p-10'>
+        <div className='bg-orange-200 laptop:w-2/5 w-full h-full laptop:p-24 p-10'>
           <div className='text-white w-64'>
             <h6 className='capitalize font-medium text-2xl tracking-widest'>
               special
