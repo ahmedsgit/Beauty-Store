@@ -9,11 +9,11 @@ export default function Form() {
           <h6 className='capitalize font-medium text-2xl tracking-widest'>
             special
           </h6>
-          <h3 className='flex font-medium text-6xl border-b-4 border-white'>
+          <div className='flex font-medium text-6xl border-b-4 border-white'>
             <h2 className='animate-spin'>O</h2>
             <h2>ffer</h2>
             <h2 className='animate-bounce'>!</h2>
-          </h3>
+          </div>
           <div className='font-light py-4 '>
             <div className='flex'>
               <div>Subscribe to mail and get </div>
@@ -21,9 +21,6 @@ export default function Form() {
             </div>
             <p>off on first order</p>
           </div>
-          <p className=''>
-            <p></p>{' '}
-          </p>
         </div>
         <div className='mt-16'>
           <form action=''>
@@ -51,8 +48,8 @@ export default function Form() {
             </div>
             <div className='flex items-center mt-4'>
               <div className='block w-5 h-5'>
-                <input type='checkbox' id='check' chceked />
-                <label htmlfor='check' className='' />
+                <input type='checkbox' id='check' chceked="true" />
+                <label htmlFor='check' className='' />
               </div>
               <div className='ml-3 text-sm font-thin'>
                 By clicking subscribe, you agree to our terms and

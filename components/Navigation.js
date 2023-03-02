@@ -93,7 +93,6 @@ export default function Navigation() {
               <a className='ml-12 text-sm'>
                 <SearchIcon
                   onClick={handleSearch}
-                  onOut
                   className={`${searchIcon} h-10 w-10 p-2 text-black hover:text-yellow-600 hover:animate-bounce`}
                 />
               </a>

@@ -4,7 +4,6 @@ import Layout from '../components/Layout';
 import Navigation from '../components/Navigation';
 import Slider from '../components/Slider';
 import Footer from "../components/Footer";
-import FbChat from '../components/FbChat'
 
 export default function Home() {
   return (
@@ -20,9 +19,7 @@ export default function Home() {
         <Layout />
         <Form />
         <Footer />
-        <FbChat />
       </main>
-
     </div>
   )
 }
