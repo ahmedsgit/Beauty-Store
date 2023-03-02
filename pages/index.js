@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import Navigation from '../components/Navigation';
 import Slider from '../components/Slider';
 import Footer from "../components/Footer";
+import FbChat from '../components/FbChat'
 
 export default function Home() {
   return (
@@ -11,14 +12,15 @@ export default function Home() {
       <Head>
         <title>Beauty Store</title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="./../build/output.css"/>
+        <link rel="stylesheet" href="./../build/output.css" />
       </Head>
       <main>
-        <Navigation/>
-        <Slider/>
-        <Layout/>
-        <Form/>
-        <Footer/>
+        <Navigation />
+        <Slider />
+        <Layout />
+        <Form />
+        <Footer />
+        <FbChat />
       </main>
 
     </div>
